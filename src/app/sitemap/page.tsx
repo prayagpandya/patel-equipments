@@ -54,20 +54,20 @@ export default function SitemapPage() {
           className="mt-6 mb-8"
         />
 
-        {/* Live Vercel App Reference Notice */}
+        {/* Live Domain Reference Notice */}
         <div className="border border-brand-border bg-brand-soft p-6 mb-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center gap-2">
               <Globe className="w-5 h-5 text-brand-red shrink-0" />
               <span className="text-xs font-black uppercase tracking-wider text-brand-dark">
-                Live Deployment URL Architecture
+                Official Production Domain
               </span>
               <span className="bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-0.5 border border-emerald-300 uppercase">
-                Active Vercel App
+                Active Domain
               </span>
             </div>
             <p className="text-sm text-brand-muted leading-relaxed">
-              Current live staging reference:{' '}
+              Official Production Domain:{' '}
               <a 
                 href={LIVE_VERCEL_URL} 
                 target="_blank" 
@@ -79,9 +79,9 @@ export default function SitemapPage() {
               </a>
             </p>
             <p className="text-xs text-brand-muted">
-              Official reference domain:{' '}
+              Reference catalog legacy domain:{' '}
               <span className="font-mono text-brand-dark font-medium">{ORIGINAL_DOMAIN_URL}</span>
-              {' '}(All canonical paths seamlessly map to production upon domain cutover).
+              {' '}(All canonical paths seamlessly map to production on patelequipments.in).
             </p>
           </div>
 

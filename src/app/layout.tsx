@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://patelequipments.in'),
   title: 'Patel Material Handling Equipment | Reliable Industrial Handling Solutions',
   description:
     'Patel Material Handling Equipment manufactures premium hydraulic pallet trucks, drum lifters, manual stackers, platform trolleys, and aluminium ladders in Ahmedabad, Gujarat, India.',
@@ -27,6 +28,8 @@ export const metadata: Metadata = {
       'Premium industrial material handling equipment. Built for strength, durability, and safety.',
     type: 'website',
     locale: 'en_IN',
+    url: 'https://patelequipments.in',
+    siteName: 'Patel Material Handling Equipment',
   },
 };
 

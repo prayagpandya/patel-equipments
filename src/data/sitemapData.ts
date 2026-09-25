@@ -1,7 +1,8 @@
 // Sitemap Information Architecture
-// Base live Vercel URL: https://patel-equipments.vercel.app
+// Production domain: https://patelequipments.in
 
-export const LIVE_VERCEL_URL = "https://patel-equipments.vercel.app";
+export const SITE_DOMAIN = "https://patelequipments.in";
+export const LIVE_VERCEL_URL = "https://patelequipments.in";
 export const ORIGINAL_DOMAIN_URL = "https://www.patelequipmentindia.com";
 
 export interface SitemapPageItem {

@@ -3,7 +3,7 @@ import { sitemapCorporatePages, sitemapCategories, LIVE_VERCEL_URL } from '@/dat
 import { products } from '@/data/products';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = LIVE_VERCEL_URL;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || LIVE_VERCEL_URL || 'https://patelequipments.in';
   const currentDate = new Date();
 
   // 1. Corporate / Main Pages
